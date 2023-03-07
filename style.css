@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+.games-font {
+font-family: 'Press Start 2P', cursive;
+}
+
+.index-body {
+  background: #1d92c3;
+}
+
+.elearning-body {
+  background: #fbfb99;
+}
+
+.app-body {
+  background: #af4949;
+}
+
+.games-body {
+  background: #26636c;
+}
+
+.arts-body {
+  background: #4d4db3;
+}
+
+/* ul {
+    list-style-type:none;
+} */
+
+
+
+.list-group-item {
+  background: #bde3ec;
+  border: 2px solid black;
+}
+
+/* .list-group-item-action:focus,
+.list-group-item-action:hover {
+  background: #d8eaef;
+  color: black;
+  font-weight: 600;
+} */
+
+.list-group-item-action {
+  color: black;
+}
+
+/* portfolio styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Accordion */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  cursor: pointer;
+  transition: 0.4s;
+  width: 100%;
+  padding: 5px;
+  background: #bde3ec;
+  border-radius: 10px;
+  border-color: black;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background: #d8eaef;
+  color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  margin-top: 5px;
+  padding: 5px;
+  background: #bde3ec;
+  border: 1px solid #495057;
+  display: none;
+  overflow: hidden;
+}
